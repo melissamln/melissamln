@@ -1,8 +1,10 @@
 <svg width="400" height="110">
   <text x="10" y="40" font-size="40" font-family="Arial, sans-serif" fill="black">
-    Hi, my name is Melissa
+    <tspan id="text"></tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze"/>
   </text>
 </svg>
+
 
 
 <!--
